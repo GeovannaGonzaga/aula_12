@@ -17,9 +17,12 @@
 
 </head>
 <body>
-    <h1> Olá mundo </h1>
+    <h1> Data e Hora </h1>
     <hr color="black" height="20px">
-    <p>  Segunda aula de javascript</p>
+    <button type="button" onclick="document.getElementById('texto').innerHTML = Date()">
+        Clique aqui para mostrar a data e horário
+    </button>
+    <p id="texto"></p>
 
     <script>
         //>comentario de linha
@@ -27,12 +30,14 @@
         //window.prompt("Escreva algo") // pqueno prompt que aparece como um pop out!
         //window.confirm("Você está gostando da aual?") //pop out<como se fosse uma tela de alerta> de confirmação.
         
-            var x = Number (window.prompt("Digite aqui o seu peso em kilos")) //var(declara que ali vai ir uma variavel) sempre tem  que colocar ponto após window e abrir() apos declarar o tipo de variável
-            var y = Number (window.prompt("Digite aqui sua altura em metros")) //Number já entende que vai receber todos os tipos de caracteres númericos,
-            var b = x / (y*y)
+            //var x = Number (window.prompt("Digite aqui o seu peso em kilos")) //var(declara que ali vai ir uma variavel) sempre tem  que colocar ponto após window e abrir() apos declarar o tipo de variável
+            //var y = Number (window.prompt("Digite aqui sua altura em metros")) //Number já entende que vai receber todos os tipos de caracteres númericos,
+            //ar b = x / (y*y)
 
-            window.alert(b)
+            //window.alert(b)
 
     </script>
+
+
 </body>
 </html>
